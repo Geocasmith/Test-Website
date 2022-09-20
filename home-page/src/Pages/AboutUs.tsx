@@ -2,6 +2,7 @@ import styled from "styled-components";
 import darkCloud from "../Resources/2.png";
 import Mesh from "../Resources/Mesh.svg";
 import React from "react";
+import circle2 from "../Resources/circle2.svg";
 
 export function AboutUs() {
     return <Image1>
@@ -54,7 +55,7 @@ const Image1 = styled.div`
   background-position: 50% 50%;
   background-blend-mode: normal, normal;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(https://file.rendit.io/n/skOSGgh19YbinWEubBm6.png);
+    url(${darkCloud});
 `;
 const Div1 = styled.div`
   width: 1920px;
@@ -197,7 +198,7 @@ const Ellipse = styled.div`
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url("https://file.rendit.io/n/0OZ0ZXhWWAeHFlVKc0Jv.svg");
+  background-image: url(${circle2});
   padding: 39px 0px 56px 0px;
 `;
 const Text3 = styled.div`

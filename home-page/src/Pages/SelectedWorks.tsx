@@ -4,6 +4,8 @@ import React from "react";
 import boatImage4 from "../Resources/4.png";
 import boatImage5 from "../Resources/5.png";
 import boatImage3 from "../Resources/3.png";
+import circle from "../Resources/circle.svg";
+import linearGradient from "../Resources/linearGradient.svg";
 
 export function SelectedWorks() {
     return <>
@@ -77,11 +79,10 @@ const FlexColumn = styled.div`
   justify-content: flex-end;
   align-items: flex-start;
   background-size: cover;
-  background-image: url("https://file.rendit.io/n/PMk3mG05zOLB2hOdN8Xw.svg");
+  background-image: url(${linearGradient});
   padding: 33px 727px 33px 60px;
 `;
-//background-image: url("https://file.rendit.io/n/PMk3mG05zOLB2hOdN8Xw.svg");
-//Here2
+
 const Text = styled.div`
   width: 616px;
   height: 144px;
@@ -116,7 +117,7 @@ const Div = styled.div`
 const Text4 = styled.div`
   width: 330px;
   height: 13px;
-  left: 803px;
+  left: 780px;
   position: absolute;
   color: #f7f7f7;
   font-size: 16px;
@@ -237,7 +238,7 @@ const Ellipse = styled.div`
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url("https://file.rendit.io/n/0OZ0ZXhWWAeHFlVKc0Jv.svg");
+  background-image: url(${circle});
   padding: 39px 0px 54px 0px;
 `;
 const Text5 = styled.div`

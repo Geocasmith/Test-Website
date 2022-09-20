@@ -483,7 +483,7 @@ const FlexColumn = styled.div`
   flex-direction: column;
   justify-content: center;
   background-size: cover;
-  background-image: url("https://file.rendit.io/n/mSWUiIIxTQr7Enm3fEnR.svg");
+  background-image: url(${Mesh2});
 `;
 const Mesh = styled.img`
   height: 626.42px;

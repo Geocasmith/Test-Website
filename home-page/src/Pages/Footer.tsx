@@ -1,5 +1,8 @@
 import styled from "styled-components";
 import React from "react";
+import circle from "../Resources/circle.svg";
+import arrow from "../Resources/Arrow.svg";
+import water from "../Resources/6.png";
 import {Div, Div1, Div2} from "./HomePage";
 export function Footer() {
     return <Image>
@@ -11,7 +14,7 @@ export function Footer() {
         <Text6>Facebook</Text6>
         <Text7>Linkedin</Text7>
         <Div3>
-            <Image1 src={`https://file.rendit.io/n/Ui5wwGkdi830hXx9Qo9c.svg`}/>
+            <Image1 src={arrow}/>
             <Ellipse>
                 <Text8>Contact Us</Text8>
             </Ellipse>
@@ -34,7 +37,7 @@ const Ellipse = styled.div`
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url("https://file.rendit.io/n/LaRuvKHGwXknL3WXeP1k.svg");
+  background-image: url(${circle});
   padding: 39px 0px 54px 0px;
 `;
 const Text8 = styled.div`
@@ -61,7 +64,7 @@ const Image = styled.div`
   background-blend-mode: normal, color, normal;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     linear-gradient(rgba(165, 182, 189, 1), rgba(165, 182, 189, 1)),
-    url(https://file.rendit.io/n/8Yi9lXpYQcfmVjA5ohj3.png);
+    url(${water});
 `;
 const Text = styled.div`
   width: 754px;
