@@ -3,16 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {DesktopHomepage} from "./ui-components";
 import '@aws-amplify/ui-react/styles.css'
+import {DesktopLastPageRoot1} from "./HomePage";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-<App/>
+{/*<App/>*/}
       {/*<DesktopHomepage/>*/}
+  <DesktopLastPageRoot1/>
   </React.StrictMode>
 );
 
