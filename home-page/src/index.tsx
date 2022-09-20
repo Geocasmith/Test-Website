@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '@aws-amplify/ui-react/styles.css'
-import {DesktopLastPageRoot1} from "./HomePage";
+import {HomePage} from "./Pages/HomePage";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
 {/*<App/>*/}
       {/*<DesktopHomepage/>*/}
-  <DesktopLastPageRoot1/>
+  <HomePage/>
   </React.StrictMode>
 );
 
